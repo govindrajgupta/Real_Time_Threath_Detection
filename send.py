@@ -1,6 +1,6 @@
 from twilio.rest import Client
-account_sid = ''
-auth_token = ''
+account_sid = 'your account sid'
+auth_token = 'your auth token'
 client = Client(account_sid, auth_token)
 def sendSms():
     message = client.messages.create(
